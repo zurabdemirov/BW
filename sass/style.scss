@@ -3,6 +3,7 @@ body{
     margin: 0;
     display: flex;
     flex-direction: column;
+    background-image: url("/img/Layer\ 1.jpg");
 }
 h1{
     margin: 0;
@@ -12,8 +13,12 @@ p{
     margin: 0;
     padding: 0;
 }
+ul{
+    margin: 0;
+    padding: 0;
+}
 .wrapper{
-    width: 1388px;
+    width: 1000px;
 }
 .header{
     width: 100%;
@@ -38,7 +43,11 @@ p{
                 flex-direction: column;
                 color: white;
                 font-family: 'Roboto', sans-serif;
-                
+
+                    .header__logo-gray-p{
+                        color: #b0b0b0;
+                    }
+                    
                     .header__logo_box{
                         display: flex;
                         justify-content: flex-start;
@@ -46,6 +55,7 @@ p{
                             .header__logo-gray-h1{
                                 color: #b0b0b0;
                             }
+                            
                     }
             }
         }
@@ -70,7 +80,9 @@ p{
                         }
                 }
                 .header__search-button{
-        
+
+                    .header__search-button-a{
+                        
                         .header__search-button-input{
                             border-style: solid;
                             border-width: 1px;
@@ -82,6 +94,11 @@ p{
                             font-family: 'Roboto', sans-serif;
                             outline: none;
                         }
+                        .header__search-button-input:hover{
+                            color: wheat;
+                            cursor: pointer;
+                        }
+                    }  
                 }
         }
 }
@@ -104,14 +121,14 @@ p{
             }
 
             .slider__img{
-                    width: 1388px;
+                    width: 1000px;
                     height: 330px;
             }
             .slider__img-footer-content{
                 color: white;
                 position: absolute; 
                 opacity: 0.502;
-                width: 1388px;
+                width: 1000px;
                 height: 57px;
                 z-index: 1;
                 background-color: black;
@@ -125,7 +142,37 @@ p{
     
 }
 
-
+.nav{
+    height:30px;
+    display: flex;
+    justify-content: center;
+        .nav__box{
+            width: 1000px;
+            height: 30px;
+            background-color: rgb(0, 0, 0);
+                .nav__ul{
+                    display: flex;
+                    justify-content: flex-start;
+                        .nav__li{
+                            padding-left: 30px;
+                            padding-right: 30px;
+                            padding-top: 5px;
+                            padding-bottom: 5px;
+                            font-family: 'Roboto', sans-serif;
+                            overflow: hidden;
+                            border-left: 1px solid #272727;
+                            border-right: 1px solid #272727;
+                                .nav__li-a{
+                                    color: white;
+                                    text-decoration: none;
+                                }
+                                .nav__li-a:hover{
+                                    color: wheat;
+                                }
+                        }
+                }
+        }
+}
 
 
 
