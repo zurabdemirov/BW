@@ -217,4 +217,41 @@ ul{
         }
 }
 
+.images{
+    display: flex;
+    justify-content: center;
 
+        .images__box{
+            background-color: white;
+            display: flex;
+            flex-direction: column;
+            padding-bottom: 10px; 
+
+                .imeges__h1{
+                    font-size: 20px;
+                    font-family: 'Roboto', sans-serif;
+                    color: rgb(0, 0, 0);
+                    font-weight: bold; 
+                    padding-left: 15px;
+                    padding-bottom: 10px;
+
+                        .imeges__spanBl{
+                            
+                        }
+                        
+                        .imeges__spanGr{
+                            color: #b0b0b0;
+                        }
+                }
+
+                .imeges__div{
+                    display: flex;
+                    justify-content: space-around;
+                    
+                        .imeges__img{
+                                border: solid 12px #e2e2e2; 
+                        }
+                }
+
+        }
+}
