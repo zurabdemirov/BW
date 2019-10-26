@@ -47,7 +47,7 @@ ul{
                     .header__logo-gray-p{
                         color: #b0b0b0;
                     }
-                    
+
                     .header__logo_box{
                         display: flex;
                         justify-content: flex-start;
@@ -174,5 +174,47 @@ ul{
         }
 }
 
+.about-Us{
+    display: flex;
+    justify-content: center;
+
+        .about-Us__box{
+            background-color: white;
+                .about-Us__h1{
+                    font-family: 'Roboto', sans-serif;
+                    font-size: 30px;
+                    color: rgb(0, 0, 0);
+                    font-weight: bold;
+                    line-height: 0.667;
+                    padding: 15px;   
+
+                        .about-Us__h1-spanBl{
+
+                        }
+                        .about-Us__h1-spanGr{
+                            color: #b0b0b0;
+                        }
+                }
+        
+                .about-Us__info{
+                    font-size: 13px;
+                    font-family: "Arial";
+                    line-height: 1.538;  
+                    padding-left: 15px;
+                    padding-bottom: 5px; 
+
+                        .about-Us__info-a{
+                            color: #0075d0;
+                        }
+                }
+        
+                .about-Us__info-footer{
+                    padding-left: 25px;
+                    color: #b0b0b0;
+                    font-family: "Arial";
+                    padding-bottom: 30px;
+                }
+        }
+}
 
 
