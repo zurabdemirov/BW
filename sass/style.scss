@@ -13,7 +13,7 @@ p{
     margin: 0;
     padding: 0;
 }
-ul{
+ul,ol{
     margin: 0;
     padding: 0;
 }
@@ -247,6 +247,7 @@ ul{
                 .imeges__div{
                     display: flex;
                     justify-content: space-around;
+                    padding-bottom: 25px;
                     
                         .imeges__img{
                                 border: solid 12px #e2e2e2; 
@@ -254,4 +255,60 @@ ul{
                 }
 
         }
+}
+
+.lists{
+    display: flex;
+    justify-content: center;
+    font-family: 'Roboto', sans-serif;
+    
+    
+    .lists__box{
+        background-color: white;
+
+            .lists__heading{
+                font-size: 20px;
+                font-family: 'Roboto', sans-serif;
+                color: rgb(0, 0, 0);
+                font-weight: bold; 
+                padding-left: 15px;
+                padding-bottom: 10px;
+                
+                    .lists__heading-spanBl{
+
+                    }
+
+                    .lists__heading-spanGr{
+                        color: #b0b0b0;
+                    }
+            }
+
+            .lists__conteiner-box{
+                display: flex;
+                flex-direction: column;
+
+                    .lists__conteiner-box-blocks{
+                        display: flex;
+                        justify-content: space-around;
+                        padding-bottom: 45px;
+
+                            .lists__conteiner-block1{
+                                font-size: 13px;
+                                font-family: 'Roboto', sans-serif;
+                            }
+            
+                            .lists__conteiner-block2{
+                                font-size: 13px;
+                                font-family: 'Roboto', sans-serif;
+                            }
+            
+                            .lists__conteiner-block3{
+                                overflow: hidden;
+                                font-size: 13px;
+                                font-family: 'Roboto', sans-serif;
+                            }
+                    }
+              
+            }
+    }
 }
