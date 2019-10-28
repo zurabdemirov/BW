@@ -312,3 +312,79 @@ ul,ol{
             }
     }
 }
+
+.table{
+    display: flex;
+    justify-content: center;
+
+        .table__box{
+            background-color: white;
+            display: flex;
+            justify-content: flex-start;
+            padding-left: 15px;
+
+                .table__box-content{
+
+                    .table__heading{
+                        font-size: 20px;
+                        font-family: 'Roboto', sans-serif;
+                        color: rgb(0, 0, 0);
+                        font-weight: bold;
+                        padding-bottom: 10px;
+
+                            .table__heading-spanBl{
+
+                            }
+
+                            .table__heading-spanGr{
+                                color: #b0b0b0;
+                            }
+
+                    }
+
+                    .table__basis{
+                        display: flex;
+                        justify-content: space-around;
+                        border-collapse: collapse;
+    
+                            th{
+                                border: 1px solid grey;
+                                font-family: 'Roboto', sans-serif;
+                                background-color: #efefef;
+                                padding: 5px;
+                            }
+    
+    
+                            tr{
+                                .table__basis-1{
+                                    padding-right: 90px;
+                                }
+                                .table__basis-2{
+                                    padding-right: 110px;
+                                }
+                                .table__basis-3{
+                                    padding-right: 130px;
+                                }
+                                .table__basis-4{
+                                    padding-right: 55px;
+                                }
+                                        
+                                
+        
+                                td{
+                                    border: 1px solid grey;
+                                    font-family: 'Roboto', sans-serif;
+                                    padding-left: 10px;
+                                    padding-top: 5px;
+                                    padding-bottom: 5px;
+                                    padding-right: 30px;
+                                }
+                            }
+    
+                            
+                    }
+                }
+
+
+        }
+}
