@@ -17,6 +17,9 @@ ul,ol{
     margin: 0;
     padding: 0;
 }
+input{
+    margin: 0;
+}
 .wrapper{
     width: 1000px;
 }
@@ -322,6 +325,7 @@ ul,ol{
             display: flex;
             justify-content: flex-start;
             padding-left: 15px;
+            padding-bottom: 25px;
 
                 .table__box-content{
 
@@ -385,6 +389,139 @@ ul,ol{
                     }
                 }
 
+
+        }
+}
+
+.forms{
+    display: flex;
+    justify-content: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    
+        .forms__box{
+            background-color: white;
+            display: flex;
+            flex-direction: column;
+            padding-left: 15px;
+
+                .forms__heading{
+                    font-size: 20px;
+                    font-family: 'Roboto', sans-serif;
+                    color: rgb(0, 0, 0);
+                    font-weight: bold;
+                    padding-bottom: 20px;
+
+                        .forms__heading-spanBl{
+
+                        }
+
+                        .forms__heading-spanGr{
+                            color: #b0b0b0;
+                        }
+
+                }
+
+                .forms__input-1 {
+                    
+                    .forms__input-1-header{
+                        padding-bottom: 5px;
+                    }
+
+                    .forms__input-1-inp{
+                        border-style: solid;
+                        border-width: 1px;
+                        border-color: rgb(183, 183, 183);
+                        background-color: rgb(255, 255, 255);
+                        box-shadow: inset 0px 2px 3px 0px rgba(0, 0, 0, 0.15);
+                        width: 220px;
+                        height: 30px;
+                        margin-bottom: 15px;
+                        padding-left: 8px;
+                    }
+                }
+
+                .forms__input-2{
+                    margin-bottom: 20px;
+                    
+                        select{
+                            border-style: solid;
+                            border-width: 1px;
+                            border-color: rgb(183, 183, 183);
+                            background-color: rgb(255, 255, 255);
+                            box-shadow: inset 0px 2px 3px 0px rgba(0, 0, 0, 0.15);
+                            width: 232px;
+                            height: 35px;
+                        }
+                            .forms__input-2-header{
+                                padding-bottom: 5px;
+
+                                    .forms__input-2-sel{
+
+                                        .forms__input-2-sel-option{
+                                            
+                                        }
+                                    }
+                            }
+                }
+
+                .forms__input-3{
+                    display: flex;
+                    justify-content: flex-start;
+                    align-items: center;
+                    margin-bottom: 15px;
+                    
+                        .forms__input-3-checkbox-span{
+                            font-size: 13px;
+                            padding-left: 5px;
+                        }
+                      
+                }
+
+                .forms__input-4{
+                    display: flex;
+                    justify-content: flex-start;
+                    align-items: center;
+                    margin-bottom: 15px;
+
+                        .forms__input-4-radio-span{
+                            font-size: 13px;
+                            padding-left: 5px;
+                        }
+                }
+
+
+                .forms__input-5{
+                    margin-bottom: 15px;
+
+                        .forms__input-5-textarea{
+                            border-style: solid;
+                            border-width: 1px;
+                            border-color: rgb(183, 183, 183);
+                            background-color: rgb(255, 255, 255);
+                            box-shadow: inset 0px 2px 3px 0px rgba(0, 0, 0, 0.15);
+                            width: 302px;
+                            height: 122px;
+                        }
+
+
+
+                }
+
+                .forms__input-6{
+                    margin-bottom: 25px;
+
+                        .forms__input-6-button{
+                                border-style: solid;
+                                border-width: 1px;
+                                color: white;
+                                border-color: rgb(0, 0, 0);
+                                background-color: rgb(32, 32, 32);
+                                width: 95px;
+                                height: 39px;  
+                                font-size: 15px;
+                        }
+                }
 
         }
 }
