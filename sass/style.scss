@@ -525,3 +525,20 @@ input{
 
         }
 }
+
+.footer{
+    font-size: 13px;
+    font-family: "Arial";
+    color: rgb(101, 101, 101);
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    
+        .footer__box{
+
+            .footer__head-a{
+                color: #0075d0;
+            }
+        }
+}
