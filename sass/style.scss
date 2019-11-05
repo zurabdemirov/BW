@@ -795,6 +795,11 @@ input{
         }
 
         .footer__box{
+            
+            @media (max-width: 610px) {
+                display: flex;
+                justify-content: center;
+            }
 
             .footer__head-a{
                 color: #0075d0;
